@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #142d52;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+textarea {
+  min-height: 120px;
+  padding: 12px;
+  resize: vertical;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.preview-image {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.result-card {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgb(24, 24, 24);
+  border-radius: 10px;
+}
+
+.songs-container {
+  margin-top: 30px;
+}
+
+.song-card {
+  background: rgb(24, 22, 22);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Node Modules
+node_modules/
+
+# Cache
+.cache/
+
+# User Uploaded Images
+user_images/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
